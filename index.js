@@ -24,6 +24,7 @@ app.use(session({
 }));
 
 app.use(express.static('./publico'));
+    
 
 //endpoint http://localhost:3000/login
 app.get('/login',(requisicao, resposta) => {
